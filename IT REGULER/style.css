@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ue{
+    background-image: url(assets/bgv3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.ue:hover{
+    background-image: url(assets/bgv4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.ue a{
+    display: inline-block;
+    flex-flow: row;
+    font-size: 15px;
+    margin-right: 25px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+}
+
+.tes{
+    text-decoration: none;
+    color: black;
+    outline: 5px solid black;
+    padding: 0.25% 0.5%;
+    margin: 0.25%;
+    width: 100px;
+    float: right;
+}
+
+.tes1{
+    text-decoration: none;
+    color: black;
+    outline: 5px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.25% 0.5%;
+    margin: 0.25%;
+    width: 100px;
+    float: center;
+}
+
+.tebla{
+    width: 180px;
+    height: auto;
+    padding-left: 2%;
+}
+
+.ue p{
+    position: relative;
+    float: right;
+    margin-right: 250px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.verLine {
+    border-left: 3px solid white;
+    height: 50px;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    float: right;
+  }
+
+.texu{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+  
+.shita{
+    background-color: #151515;
+    padding: 2%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.bawah{
+    background-color: #151515;
+    padding: 2%;
+    display: flex;
+    flex-flow: row;
+    padding-left: 630px;
+    align-items: center;
+    align-content: center;
+}
+
+.shita h4{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 700px;
+    text-align: center;
+    align-content: center;
+}
+
+.img1{
+    width: 200px;
+}
+
+.img2{
+    width: 100px;
+    padding-left: 50px;
+}
+
+.naka{
+    background-color: white;
+    margin: 2%;
+    display: flex;
+    flex-flow: row;
+    float: center;
+}
+
+.naka img{
+    width: 200px;
+    padding-left: 150px;
+    justify-content: space-evenly;
+}
+
+.naka h4{
+    display: inline-block;
+    float: center;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    margin: 4% 0;
+}
+
+.box a{
+    display: flex;
+    float: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 46%;
+}
+
+/* testdrive */
+
+.naka2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.reg h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
