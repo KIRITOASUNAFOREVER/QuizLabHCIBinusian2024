@@ -1,0 +1,173 @@
+*{
+    font-family : arial;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: #333333;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    height: 40px;
+    margin: 0;
+    align-items: center;
+
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #F59E00;
+    padding: 10px;
+}
+
+/* hero section */
+
+.hero{
+    height: 600px;
+    width: 100%;
+    background-image: url('asset/bg_cover.jpg');
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.hero:hover{
+    background-image: url('asset/rollover.jpg');
+    background-size: cover;
+}
+
+.hero .container {
+    color: #fff;
+    width: 400px;
+}
+
+.hero .container h1{
+    font-size: 50px;
+    color: #F59E00;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero .container p{
+    text-align: center;
+}
+
+
+/* catalog */
+
+.catalog {
+    text-align: center;
+    background-color: #555;
+}
+.catalog h1{
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 100px;
+}
+
+.grid-item{
+    color: #fff;
+    width: 200px;
+    height: 250px;
+    background-color: #000;
+    margin: 10px;
+    padding: 5px;
+}
+.grid-item img{
+    width: 100%;
+    height: 100px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333333;
+    color: #fff;
+}
+
+footer img,footer p{
+    margin-right: 5px;
+}
+
+
+/* form */
+
+form{
+   margin-left : 650px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container h1{
+    margin: 0;
+}
+
+/* Full-width input fields */
+.form-container input[type=text]{
+  width: 100%;
+  padding: 5px 0; 
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+select{
+    margin-bottom: 5px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
